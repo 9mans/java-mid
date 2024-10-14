@@ -2,7 +2,7 @@ package lang.object;
 
 public class ObjectMain {
 
-    // 오브젝트는 객체의 공통기능을 모아두기 위해 만든 클래스라고 생각하자 
+    // 오브젝트는 객체의 공통기능을 모아두기 위해 만든 클래스라고 생각하자
     public static void main(String[] args) {
 
         Child child = new Child();
