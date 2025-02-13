@@ -3,8 +3,8 @@ package lang.immutable.adress;
 public class RefMain1_2 {
     public static void main(String[] args) {
 
-        Adress a = new Adress("서울");
-        Adress b = new Adress("서울");
+        Address a = new Address("서울");
+        Address b = new Address("서울");
 
         System.out.println("a = " + a);
         System.out.println("b = " + b);

@@ -4,8 +4,8 @@ public class RefMain1_3 {
 
     public static void main(String[] args) {
 
-        Adress a = new Adress("서울");
-        Adress b = a;
+        Address a = new Address("서울");
+        Address b = a;
 
         System.out.println("a = " + a);
         System.out.println("b = " + b);
@@ -16,8 +16,8 @@ public class RefMain1_3 {
 
     }
 
-    private static void change(Adress adress, String changeAddress) {
+    private static void change(Address address, String changeAddress) {
         System.out.println("주소 변경 " + changeAddress);
-        adress.setValue(changeAddress);
+        address.setValue(changeAddress);
     }
 }
